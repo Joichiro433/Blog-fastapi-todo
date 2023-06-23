@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["Joichiro433 <joichiro322@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+fastapi = "^0.95.1"
+sqlmodel = "^0.0.8"
+alembic = "^1.10.4"
+uvicorn = "^0.21.1"
+rich = "^13.3.5"
+pytest = "^7.3.1"
+httpx = "^0.24.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
